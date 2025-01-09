@@ -1,4 +1,4 @@
-baseURL = 'https://ramku.io/'
+baseURL = 'https://ramku.io/blog/'
 languageCode = 'en-us'
 title = "Gjergji's Blog"
 theme = 'ananke'
