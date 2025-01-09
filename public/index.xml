@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gjergji&#39;s Blog</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://ramku.io/blog/</link>
     <description>Recent content on Gjergji&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Jan 2025 23:03:56 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ramku.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>http://localhost:1313/blog/posts/first-post/</link>
+      <link>https://ramku.io/blog/posts/first-post/</link>
       <pubDate>Wed, 08 Jan 2025 23:03:56 +0100</pubDate>
-      <guid>http://localhost:1313/blog/posts/first-post/</guid>
+      <guid>https://ramku.io/blog/posts/first-post/</guid>
       <description>&lt;p&gt;This blog is built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
   </channel>

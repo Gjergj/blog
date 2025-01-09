@@ -10,4 +10,5 @@ serve:
 
 .PHONY: deploy
 deploy:
+	hugo
 	dibra apply
