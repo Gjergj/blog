@@ -7,3 +7,7 @@ deps:
 .PHONY: serve
 serve:
 	hugo server -D
+
+.PHONY: deploy
+deploy:
+	dibra apply

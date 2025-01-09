@@ -2,11 +2,12 @@ secrets:
   adapter: bitwarden
   list:
     SSD_NODES_PASSWORD: vps_ssd_nodes/password
+    SSD_NODES_HOST: vps_ssd_nodes/host
 
 inventory:
   real_vps:
     sdd_nodes:
-      host: 89.233.108.20
+      host: ${SSD_NODES_HOST}
       user: root
       port: 22
       password: ${SSD_NODES_PASSWORD}
