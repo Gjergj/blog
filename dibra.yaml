@@ -1,0 +1,23 @@
+secrets:
+  adapter: bitwarden
+  list:
+    SSD_NODES_PASSWORD: vps_ssd_nodes/password
+
+inventory:
+  real_vps:
+    sdd_nodes:
+      host: 89.233.108.20
+      user: root
+      port: 22
+      password: ${SSD_NODES_PASSWORD}
+      timeout: 30
+
+tasks:
+  - hosts:
+      - sdd_nodes
+    artifacts:
+      - type: local
+        path: /Users/gjergjiramku/projekte/blog/public
+        remote_path: /var/www/blog
+        constraints:
+          force: true

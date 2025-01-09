@@ -1,0 +1,4 @@
+baseURL = 'https://ramku.io/'
+languageCode = 'en-us'
+title = "Gjergji's Blog"
+theme = 'ananke'
